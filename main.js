@@ -15,10 +15,11 @@ function setup(){
 
 function draw(){
     background('#ed7777');
-    document.getElementById("size").innerHTML="Width & Height of the square= "+difference+"px";
+    document.getElementById("size").innerHTML="Width & Height of the text= "+difference+"px";
     fill('#ed1a1a');
     stroke('#801313');
-    text(Aarini,nosex,nosey,difference);
+    text("Aarini",nosex,nosey);
+    textSize(difference);
 }
 
 function modelLoaded(){
